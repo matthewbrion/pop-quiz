@@ -7,7 +7,11 @@ let questionOne = prompt(`How old is Geisel Bugenhagen in Cosmo Canyon?
     [b] 130
     [c] 102`);
     while (questionOne != "a" && questionOne != "b" && questionOne != "c") {
-    questionOne = prompt ("Try entering a, b, or c!")
+    questionOne = prompt (`How old is Geisel Bugenhagen in Cosmo Canyon?
+    [a] 87
+    [b] 130
+    [c] 102
+    (Try entering a, b, or c!)`)
 }
 
 let string
@@ -25,7 +29,11 @@ let questionTwo = prompt(`Which FFVII boss can you steal a weapon for Yuffie fro
     [b] Ruby Weapon
     [c] Emerald Weapon`);   
     while (questionTwo != "a" && questionTwo != "b" && questionTwo != "c") {
-    questionTwo = prompt ("Try entering a, b, or c!")
+    questionTwo = prompt (`Which FFVII boss can you steal a weapon for Yuffie from?
+    [a] Diamond Weapon
+    [b] Ruby Weapon
+    [c] Emerald Weapon
+    (Try entering a, b, or c!)`)
 }
 
 if (questionTwo === "a") {
@@ -41,7 +49,11 @@ let questionThree = prompt(`In Midgar, which sector is Aerith from?
     [b] Sector 5
     [c] Sector 4`);
     while (questionThree != "a" && questionThree != "b" && questionThree != "c") {
-    questionThree = prompt ("Try entering a, b, or c!")
+    questionThree = prompt (`In Midgar, which sector is Aerith from?
+    [a] Sector 7
+    [b] Sector 5
+    [c] Sector 4
+    (Try entering a, b, or c)`)
 }   
 
 if (questionThree === "b") {
